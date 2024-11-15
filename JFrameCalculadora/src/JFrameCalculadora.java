@@ -347,21 +347,21 @@ public class JFrameCalculadora extends javax.swing.JFrame {
         // TODO add your handling code here:
         primerNumero = Float.parseFloat(jLabelDisplay.getText());
         operador = "*";
-        jLabelDisplay.setText("*");
+        jLabelDisplay.setText("");
     }//GEN-LAST:event_jButtonPorActionPerformed
 
     private void jButtonDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDivActionPerformed
         // TODO add your handling code here:
         primerNumero = Float.parseFloat(jLabelDisplay.getText());
         operador = "/";
-        jLabelDisplay.setText("/");
+        jLabelDisplay.setText("");
     }//GEN-LAST:event_jButtonDivActionPerformed
 
     private void jButtonMenosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMenosActionPerformed
         // TODO add your handling code here:
         primerNumero = Float.parseFloat(jLabelDisplay.getText());
         operador = "-";
-        jLabelDisplay.setText("-");
+        jLabelDisplay.setText("");
     }//GEN-LAST:event_jButtonMenosActionPerformed
 
     private void jButtonMasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMasActionPerformed
